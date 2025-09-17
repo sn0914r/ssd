@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vamsi Photography - Wedding & Portrait Photography</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Vamsi Photography</h2>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title fade-in">Capturing Love Stories</h1>
+            <p class="hero-subtitle fade-in-delay">Beautiful wedding photography that tells your unique story</p>
+            <div class="hero-buttons fade-in-delay-2">
+                <a href="#portfolio" class="btn btn-primary">View Portfolio</a>
+                <a href="#contact" class="btn btn-outline">Get In Touch</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Wedding Photography" class="fade-in-delay">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About Vamsi</h2>
+                    <p>With over 8 years of experience in wedding photography, I specialize in capturing the authentic emotions and beautiful moments that make your wedding day unforgettable. My approach combines artistic vision with documentary storytelling to create timeless images that you'll treasure forever.</p>
+                    <p>Based in Hyderabad, I've had the privilege of photographing weddings across India and internationally, always bringing the same passion and dedication to each couple's unique love story.</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <h3>500+</h3>
+                            <p>Weddings Captured</p>
+                        </div>
+                        <div class="stat">
+                            <h3>8+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h3>50+</h3>
+                            <p>Cities Covered</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.pexels.com/photos/834863/pexels-photo-834863.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Vamsi Photography">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Portfolio</h2>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="wedding">Weddings</button>
+                <button class="filter-btn" data-filter="engagement">Engagement</button>
+                <button class="filter-btn" data-filter="portrait">Portraits</button>
+                <button class="filter-btn" data-filter="prewedding">Pre-wedding</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="wedding">
+                    <img src="https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Wedding Photography">
+                    <div class="portfolio-overlay">
+                        <h3>Traditional Wedding</h3>
+                        <p>Priya & Raj</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="engagement">
+                    <img src="https://images.pexels.com/photos/1043473/pexels-photo-1043473.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Engagement Photography">
+                    <div class="portfolio-overlay">
+                        <h3>Engagement Shoot</h3>
+                        <p>Ananya & Karthik</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="wedding">
+                    <img src="https://images.pexels.com/photos/1616113/pexels-photo-1616113.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Wedding Photography">
+                    <div class="portfolio-overlay">
+                        <h3>Beach Wedding</h3>
+                        <p>Sneha & Arjun</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="portrait">
+                    <img src="https://images.pexels.com/photos/1102341/pexels-photo-1102341.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Portrait Photography">
+                    <div class="portfolio-overlay">
+                        <h3>Bridal Portrait</h3>
+                        <p>Individual Session</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="prewedding">
+                    <img src="https://images.pexels.com/photos/1024960/pexels-photo-1024960.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Pre-wedding Photography">
+                    <div class="portfolio-overlay">
+                        <h3>Pre-wedding Shoot</h3>
+                        <p>Meera & Vikram</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="wedding">
+                    <img src="https://images.pexels.com/photos/1444442/pexels-photo-1444442.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Wedding Photography">
+                    <div class="portfolio-overlay">
+                        <h3>Destination Wedding</h3>
+                        <p>Kavya & Suresh</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="engagement">
+                    <img src="https://images.pexels.com/photos/1024974/pexels-photo-1024974.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Engagement Photography">
+                    <div class="portfolio-overlay">
+                        <h3>Ring Ceremony</h3>
+                        <p>Divya & Rohit</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="portrait">
+                    <img src="https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Portrait Photography">
+                    <div class="portfolio-overlay">
+                        <h3>Couple Portrait</h3>
+                        <p>Romantic Session</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Wedding Packages</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Essential Package</h3>
+                    <div class="price">₹75,000</div>
+                    <ul class="features">
+                        <li>6 hours wedding coverage</li>
+                        <li>2 photographers</li>
+                        <li>300+ edited photos</li>
+                        <li>Online gallery</li>
+                        <li>Print release</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline">Choose Plan</a>
+                </div>
+                <div class="service-card featured">
+                    <div class="popular-badge">Most Popular</div>
+                    <h3>Premium Package</h3>
+                    <div class="price">₹1,25,000</div>
+                    <ul class="features">
+                        <li>Full day wedding coverage</li>
+                        <li>2 photographers + 1 videographer</li>
+                        <li>500+ edited photos</li>
+                        <li>Wedding album (50 pages)</li>
+                        <li>Online gallery</li>
+                        <li>Engagement shoot included</li>
+                        <li>Print release</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary">Choose Plan</a>
+                </div>
+                <div class="service-card">
+                    <h3>Luxury Package</h3>
+                    <div class="price">₹2,00,000</div>
+                    <ul class="features">
+                        <li>3-day wedding coverage</li>
+                        <li>3 photographers + 2 videographers</li>
+                        <li>800+ edited photos</li>
+                        <li>Premium wedding album</li>
+                        <li>Highlight video (5-7 mins)</li>
+                        <li>Drone photography</li>
+                        <li>Pre-wedding shoot</li>
+                        <li>Online gallery</li>
+                        <li>Print release</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline">Choose Plan</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Couples Say</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial active">
+                    <p>"Vamsi captured our wedding day perfectly. Every emotion, every moment was beautifully preserved. We couldn't have asked for better!"</p>
+                    <div class="testimonial-author">
+                        <strong>Priya & Raj</strong>
+                        <span>Hyderabad</span>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <p>"Professional, creative, and so easy to work with. Our photos are absolutely stunning and we've received countless compliments!"</p>
+                    <div class="testimonial-author">
+                        <strong>Ananya & Karthik</strong>
+                        <span>Bangalore</span>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <p>"The attention to detail and artistic vision is exceptional. Vamsi made our special day even more memorable with beautiful photographs."</p>
+                    <div class="testimonial-author">
+                        <strong>Sneha & Arjun</strong>
+                        <span>Chennai</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Let's Create Magic Together</h2>
+                    <p>Ready to capture your love story? Get in touch to discuss your wedding photography needs.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i data-lucide="phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+91 98765 43210</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i data-lucide="mail"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>hello@vamsiphotography.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i data-lucide="map-pin"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Hyderabad, Telangana</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i data-lucide="instagram"></i></a>
+                        <a href="#" class="social-link"><i data-lucide="facebook"></i></a>
+                        <a href="#" class="social-link"><i data-lucide="twitter"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required>
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required>
+                        <label for="email">Email Address</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" name="phone" required>
+                        <label for="phone">Phone Number</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="date" id="wedding-date" name="wedding-date" required>
+                        <label for="wedding-date">Wedding Date</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="venue" name="venue" required>
+                        <label for="venue">Wedding Venue</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                        <label for="message">Tell us about your wedding</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Vamsi Photography</h3>
+                    <p>Capturing beautiful moments that last a lifetime</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Get In Touch</h4>
+                    <p>+91 98765 43210</p>
+                    <p>hello@vamsiphotography.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Vamsi Photography. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <span class="close-lightbox">&times;</span>
+            <img src="" alt="" id="lightbox-image">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script type="module" src="/src/main.tsx"></script>
+</body>
+</html>
